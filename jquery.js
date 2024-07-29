@@ -57,6 +57,8 @@ isOperator = function(value){
     return value === '/' || value === '*' || value === '-' || value === '+' ;
 };
 
+
+
 operate = function(a,b, operation){
     a = parseFloat(a);
     b = parseFloat(b);
